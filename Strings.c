@@ -16,3 +16,16 @@ int main()
     name[0] = 'J';
     printf("%s", name);
 }
+
+#include<stdio.h>
+
+int main()
+{
+char dogName[] = "GermanShepherd";
+int i;
+
+for (i = 0; i < 14; ++i) 
+{
+  printf("%c\n", dogName[i]);
+}
+}
