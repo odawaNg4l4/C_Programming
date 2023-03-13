@@ -7,3 +7,12 @@ int main()
 
     return 0;
 }
+
+#include<stdio.h>
+
+int main()
+{
+   char name[] = "Odawa Ngala!";
+    name[0] = 'J';
+    printf("%s", name);
+}
