@@ -51,3 +51,31 @@ int main()
     char txt [] = "It\'s a woman\'s world come on";
     printf("%s", txt);
 }
+
+//STRING FUNCTIONS
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char alphabet[50] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    printf("%d\n", strlen(alphabet));
+    printf("%d\n", sizeof(alphabet));
+
+    return 0;
+}
+
+//CONCANTENATE STRINGS
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char str1[20] = "Hello\t";
+    char str2[] = "World";
+
+    strcat(str1,str2);
+
+    printf("%s",str1);
+    return 0;
+}
