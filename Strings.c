@@ -42,3 +42,12 @@ int main()
 
     return 0;
 }
+
+//SPECIAL CHARACTERS
+#include<stdio.h>
+
+int main()
+{
+    char txt [] = "It\'s a woman\'s world come on";
+    printf("%s", txt);
+}
