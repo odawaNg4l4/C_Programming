@@ -101,7 +101,7 @@ int main()
 
     int main()
     {
-        char str1[] = "GOATEE";
+        char str1[] = "GOATEES";
         char str2[] = "GOATEES";
         char str3[] = "GOATEE";
 
