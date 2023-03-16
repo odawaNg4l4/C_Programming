@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 
 int main()
 {
@@ -65,12 +65,12 @@ int main()
     return 0;
 }
 
-//CONCANTENATE STRINGS
-#include<stdio.h>
-#include<string.h>
+    //CONCANTENATE STRINGS
+    #include<stdio.h>
+    #include<string.h>
 
-int main()
-{
+    int main()
+    {
     char str1[20] = "Hello\t";
     char str2[] = "World";
 
@@ -78,4 +78,33 @@ int main()
 
     printf("%s",str1);
     return 0;
-}
+    }
+
+    //COPY STRINGS
+    #include<stdio.h>
+    #include<string.h>
+
+    int main()
+    {
+        char str1[20] = "I am out of ordinary";
+        char str2[20];
+
+        strcpy(str2,str1);
+        printf("%s", str2);
+        
+        return 0;
+    }*/
+
+    //COMPARE STRINGS
+    #include<stdio.h>
+    #include<string.h>
+
+    int main()
+    {
+        char str1[] = "GOATEE";
+        char str2[] = "GOATEES";
+        char str3[] = "GOATEE";
+
+        printf("%d\n", strcmp(str1,str2));
+        printf("%d\n", strcmp(str1,str3));
+    }
