@@ -102,8 +102,8 @@ int main()
     int main()
     {
         char str1[] = "GOATEES";
-        char str2[] = "GOATEES";
-        char str3[] = "GOATEE";
+        char str2[] = "GOATEE";
+        char str3[] = "GOATEES";
 
         printf("%d\n", strcmp(str1,str2));
         printf("%d\n", strcmp(str1,str3));
