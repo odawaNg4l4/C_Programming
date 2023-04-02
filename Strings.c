@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 
 int main()
 {
@@ -93,7 +93,7 @@ int main()
         printf("%s", str2);
         
         return 0;
-    }*/
+    }
 
     //COMPARE STRINGS
     #include<stdio.h>
