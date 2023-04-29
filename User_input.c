@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 
 char fullName[30];
 int main()
@@ -8,7 +8,7 @@ int main()
     printf("You %s are like the stars", fullName);
 
     return 0;
-}*/
+}
 
 #include<stdio.h>
 int myNum;
