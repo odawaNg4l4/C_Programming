@@ -3,10 +3,9 @@
 char fullName[30];
 int main()
 {
-    printf("Enter name of character");
-    fgets(fullName, sizeof(fullName), stdin);
-    printf("You %s are like the stars", fullName);
-
+   printf("Enter full name");
+   fgets(fullName, sizeof(fullName) , stdin);
+   printf("Hello %s", fullName);
     return 0;
 }
 
